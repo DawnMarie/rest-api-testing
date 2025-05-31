@@ -1,0 +1,51 @@
+GET https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a2ff27f23f12ffebb4f502d4c5ddfc92
+
+HTTP/1.1 200 OK
+Date: Sat, 31 May 2025 18:55:11 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 257
+Content-Type: application/json;charset=UTF-8
+
+{
+  "location": {
+    "latitude": "-38.383494",
+    "longitude": "33.427362"
+  },
+  "accuracy": "50",
+  "name": "Frontline house",
+  "phone_number": "(+91) 983 893 3937",
+  "address": "29, side layout, cohen 09",
+  "types": "shoe park,shop",
+  "website": "http:\/\/google.com",
+  "language": "French-IN"
+}
+Response file saved.
+> 2025-05-31T145514.200.json
+
+Response code: 200 (OK); Time: 2058ms (2 s 58 ms); Content length: 257 bytes (257 B)
+
+###
+
+GET https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=02b3e4be84c3dfcff73cf09bb3258553
+
+HTTP/1.1 404 Not Found
+Date: Sat, 31 May 2025 21:25:38 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 67
+Content-Type: application/json;charset=UTF-8
+
+{
+  "msg": "Get operation failed, looks like place_id  doesn't exists"
+}
+Response file saved.
+> 2025-05-31T172539.404.json
+
+Response code: 404 (Not Found); Time: 2083ms (2 s 83 ms); Content length: 67 bytes (67 B)

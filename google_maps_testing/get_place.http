@@ -1,0 +1,5 @@
+### Section 3: Getting Started with API Testing Using Postman
+GET https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=02b3e4be84c3dfcff73cf09bb3258553
+Content-Type: application/json
+
+###

@@ -1,0 +1,23 @@
+PUT https://rahulshettyacademy.com/maps/api/place/update/json?place_id=5201fd9a68eaca4c4ecc043fe9e19c42&key=qaclick123
+
+HTTP/1.1 404 Not Found
+Date: Sat, 31 May 2025 21:30:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 77
+Content-Type: application/json;charset=UTF-8
+
+{
+  "msg": "Update address operation failed, looks like the data doesn't exists"
+}
+Response file saved.
+> 2025-05-31T173025.404.json
+
+Response code: 404 (Not Found); Time: 2573ms (2 s 573 ms); Content length: 77 bytes (77 B)
+
+###
+
+#Unable to update address, perhaps key lacks the appropriate scope?

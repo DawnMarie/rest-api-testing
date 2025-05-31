@@ -1,0 +1,19 @@
+DELETE https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+
+HTTP/1.1 200 OK
+Date: Sat, 31 May 2025 21:24:17 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Content-Type: application/json;charset=UTF-8
+
+{
+  "status": "OK"
+}
+Response file saved.
+> 2025-05-31T172419.200.json
+
+Response code: 200 (OK); Time: 2567ms (2 s 567 ms); Content length: 15 bytes (15 B)

@@ -1,0 +1,11 @@
+### Section 3: Getting Started with API Testing Using Postman
+PUT https://rahulshettyacademy.com/maps/api/place/update/json?place_id=0559de1cafe9ebe88ff3e03de92fd57f&key=qaclick123
+Content-Type: application/json
+
+{
+  "place_id":"8d2573bdf6ceec0e474c5f388fa917fb",
+  "address":"70 winter walk, USA",
+  "key":"qaclick123"
+}
+
+###
