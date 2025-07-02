@@ -1,0 +1,6 @@
+### Section 8: Real World Example - Automating JIRA APIs
+POST https://tac-lexicon.atlassian.net/rest/api/3/issue/[issueId]/attachments
+Content-Type: url-encoded/form
+Authorization: Basic [base 64 encoded useremail:token]
+X-Atlassian-Token: no-check
+

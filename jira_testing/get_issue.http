@@ -1,0 +1,4 @@
+### Section 8: Real World Example - Automating JIRA APIs
+GET https://rahulshettyacademy-team.atlassian.net/rest/api/3/issue/{issueId}
+Authorization: Basic [base 64 encoded useremail:token]
+Accept: application/json

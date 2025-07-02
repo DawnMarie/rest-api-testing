@@ -1,0 +1,12 @@
+### Section 8: Real World Example - Automating JIRA APIs
+POST https://tac-lexicon.atlassian.net/rest/api/3/issue
+Content-Type: application/json
+Authorization: Basic [base 64 encoded useremail:token]
+
+{
+    "fields": {
+        "project": {"key": "ASE"},
+        "summary": "Testing JIRA API",
+        "issuetype": {"name": "Bug"}
+    }
+}
